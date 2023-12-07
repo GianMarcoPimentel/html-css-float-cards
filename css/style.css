@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #Heading{
     width: 70%;
     text-align: center;
@@ -6,6 +11,11 @@
   
 }
 #Heading h1{
-  color: #e53170;
-  font-size: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #e53170;
+    font-size: 900;
+}
+p{
+    margin-bottom: 40px;
 }
