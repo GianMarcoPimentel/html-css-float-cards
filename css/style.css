@@ -1,0 +1,11 @@
+#Heading{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+#Heading h1{
+  color: #e53170;
+  font-size: 900;
+}
