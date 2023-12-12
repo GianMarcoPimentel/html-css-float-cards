@@ -5,6 +5,13 @@
 }
 /* reset */
 
+/* Inserimento clearfix per allinera testo vicino alle photo*/
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 body{
     font-family: 'Nunito', sans-serif;
 }
@@ -58,4 +65,25 @@ h1 {
 
     height: 120px;
     width: auto;
+}
+
+.card .card-description {
+    text-align: left;
+
+    padding: 16px 0;
+}
+
+.card .card-description > * {
+    display: block;
+
+    margin-bottom: 0.4em;
+}
+
+.card .card-description strong {
+    text-transform: uppercase;
+}
+
+.card .card-description a {
+    color: #26d9f8;
+    text-decoration: none;
 }
