@@ -25,3 +25,37 @@ h1 {
     margin-bottom: 50px;
 }
 
+/* Stilizzazione delle card */
+.card{
+    float: left;
+    width: calc(100% / 3);
+    color: white;
+    padding: 20px;
+}
+
+.card:nth-child(3) {
+    padding-right: 0;
+}
+
+
+
+.card .card-imposted {
+    
+    background-color: #0f0e17;
+
+    box-shadow: 8px 8px 12px rgba(0,0,0, 0.2);
+}
+
+.card .card-photo {
+
+    float: left;
+
+    margin-right: 16px;
+}
+
+.card .card-photo img {
+    display: block;
+
+    height: 120px;
+    width: auto;
+}
